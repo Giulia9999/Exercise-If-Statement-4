@@ -12,13 +12,13 @@ public class Person {
 
     public String getLifeStage(){
         if(age <= 12){
-            return "Child";
+            return "child";
         }else if(age >= 13 && age <=19){
-            return "Teen";
+            return "teen";
         }else if(age >= 20 && age <=59){
-            return "Adult";
+            return "adult";
         }else if(age >=60){
-            return "Senior adult";
+            return "senior adult";
         }
         return "Baby";
     }
